@@ -8,6 +8,28 @@
     text-align: center;
 }
 img{
-    width:600px;
-    height: 700px;
+    width:auto;
+    height:auto;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table {
+    border-collapse: collapse; /* Asegura que las líneas no se dupliquen */
+    text-align: center;
+    border: 2px solid black; /* Cambia el color de la línea externa */
+}
+
+td, th {
+    border: 1px solid black; /* Color de las líneas internas */
+    padding: 10px; /* Espacio dentro de las celdas */
+}
+
+tr:first-child td {
+    background-color: #f0f0f0; /* Color de fondo opcional para la primera fila */
 }

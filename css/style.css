@@ -10,6 +10,9 @@
 img{
     width:auto;
     height:auto;
+    padding-right: 80px;
+    border-radius: 20px 20px 20px 20px;
+
 }
 
 .tabla {
@@ -20,16 +23,92 @@ img{
 }
 
 table {
-    border-collapse: collapse; /* Asegura que las líneas no se dupliquen */
+    border-collapse: collapse;
     text-align: center;
-    border: 2px solid black; /* Cambia el color de la línea externa */
+    border: 2px solid black; 
 }
 
 td, th {
-    border: 1px solid black; /* Color de las líneas internas */
-    padding: 10px; /* Espacio dentro de las celdas */
+    border: 1px solid black; 
+    padding: 10px; 
 }
 
 tr:first-child td {
-    background-color: #f0f0f0; /* Color de fondo opcional para la primera fila */
+    background-color:  rgb(112, 174, 155);
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    height: 10px;
+    background-color: rgb(112, 174, 155);
+}
+.mapaSantander{
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+    padding-left: 80px;
+    padding-right: 50px;
+    border: 20px;
+    width: 400px;
+    height: 400px;   
+    max-width: 1000px;          
+    margin: 20px auto;  
+}
+.santander{
+    display: flex;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+}
+
+
+.contenedor{
+    background-color: cornflowerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 60%;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: justify;
+    box-shadow: 8px 8px 6px black;
+    border-radius: 20px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+.contenidoimagen {
+    display: flex;              
+    align-items: flex-start;     
+    max-width: 1000px;          
+    margin: 20px auto;      
+}
+
+
+.contenidotexto {
+    max-width: 700px;          
+}
+
+.contenidoimagen2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.imagen {
+    margin-left: 20px; 
+    height: 180px; 
+    border-radius: 20px 20px 20px 20px;
+}
+
+.contidotexto2 {
+    width: 50%; 
 }
